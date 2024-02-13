@@ -117,7 +117,6 @@ for(const item of perguntas) {
             }
             mostrarTotal.textContent = corretas.size + ' de ' + totalDePergunta
         }
-
         quizItem.querySelector('dl').appendChild(dt)
     }
 
